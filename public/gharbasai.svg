@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Ghar Basai logo</title>
+  <desc id="desc">Minimal house icon with triangular roof and centered door — black stroke on transparent background.</desc>
+  <g fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Roof -->
+    <path d="M8 28 L32 8 L56 28" />
+    <!-- Left wall -->
+    <path d="M12 28 L12 48" />
+    <!-- Right wall -->
+    <path d="M52 28 L52 48" />
+    <!-- Base -->
+    <path d="M12 48 L52 48" />
+    <!-- Door -->
+    <rect x="24" y="34" width="16" height="14" rx="1" ry="1" fill="#000000"/>
+    <!-- Door outline (to match stroke style) -->
+    <rect x="24" y="34" width="16" height="14" rx="1" ry="1" fill="none" stroke="#000000" stroke-width="2"/>
+  </g>
+</svg>

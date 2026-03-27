@@ -228,10 +228,10 @@ export default function ConsultationPage() {
           transition={{ duration: 0.8, delay: 1.2 }}
         >
           <Link
-            href="/hotel/family"
+            href="/home"
             className="inline-flex items-center gap-2 text-emerald-700 font-medium hover:underline"
           >
-            ← Back to Hotel Family
+            ← Back to Home
           </Link>
         </motion.div>
       </div>

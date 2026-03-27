@@ -99,10 +99,13 @@ export default function InternationalToursPage() {
   ];
 
   // rotate testimonial automatically
-  useEffect(() => {
-    const t = setInterval(() => setTestimonialIndex((i) => (i + 1) % testimonials.length), 5000);
-    return () => clearInterval(t);
-  }, []);
+useEffect(() => {
+  const t = setInterval(() => 
+    setTestimonialIndex((i) => (i + 1) % testimonials.length), 
+  5000);
+
+  return () => clearInterval(t);
+}, [testimonials.length]);
 
   // package slider navigation
   function nextPackage() {

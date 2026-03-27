@@ -16,7 +16,6 @@ import {
   Quote,
 } from "lucide-react";
 import Link from "next/link";
-
 export default function ServicesPage() {
   const services = [
     {
@@ -148,12 +147,11 @@ export default function ServicesPage() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-    <Link
-      href="/contact"
-      className="inline-flex items-center px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white rounded-full shadow-lg hover:shadow-xl transition-all text-lg font-medium"
-    >
-      Start Planning Your Journey
-      <ArrowRight className="ml-2 w-5 h-5" />
+     <Link href="/contact" passHref>
+      <a className="inline-flex items-center px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white rounded-full shadow-lg hover:shadow-xl transition-all text-lg font-medium">
+        Start Planning Your Journey
+        <ArrowRight className="ml-2 w-5 h-5" />
+      </a>
     </Link>
           </motion.div>
         </motion.div>
@@ -309,7 +307,7 @@ export default function ServicesPage() {
             What Our <span className="text-indigo-600">Travelers Say</span>
           </h2>
           <p className="text-gray-600 text-lg">
-            Don't just take our word for it - hear from travelers who have experienced our services firsthand.
+            Do not just take our word for it - hear from travelers who have experienced our services firsthand.
           </p>
         </motion.div>
 
@@ -332,7 +330,7 @@ export default function ServicesPage() {
                 ))}
               </div>
               <Quote className="w-10 h-10 text-indigo-200 mb-4" />
-              <p className="text-gray-700 italic mb-6">"{testimonial.quote}"</p>
+              <p className="text-gray-700 italic mb-6">{testimonial.quote}</p>
               <div>
                 <div className="font-semibold text-gray-800">{testimonial.author}</div>
                 <div className="text-sm text-gray-600">{testimonial.location}</div>
