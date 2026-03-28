@@ -142,7 +142,7 @@ export default function LoginForm() {
           </div>
 
           <p className="text-center text-sm mt-6 text-gray-600 animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-            Don't have an account?{" "}
+            Don&apos;t have an account?{" "}
             <a href="/register" className="text-purple-600 font-semibold hover:text-purple-700 transition-colors">
               Sign Up!
             </a>

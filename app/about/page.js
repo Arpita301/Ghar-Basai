@@ -313,9 +313,9 @@ const sectionRef = useRef(null);
 
             {/* Quote */}
             <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 border border-gray-100">
-              <p className="text-sm text-gray-700 leading-relaxed italic">
-                "From passionate travelers to trusted guides, <span className="font-semibold text-blue-600">our story</span> is about meaningful journeys,connecting people with places, and turning travel dreams into beautiful realities."
-              </p>
+          <p className="text-sm text-gray-700 leading-relaxed italic">
+  &quot;From passionate travelers to trusted guides, <span className="font-semibold text-blue-600">our story</span> is about meaningful journeys, connecting people with places, and turning travel dreams into beautiful realities.&quot;
+</p>
             </div>
           </motion.div>
         </div>

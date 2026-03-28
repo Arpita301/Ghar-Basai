@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import { User, Calendar, Laptop, LogOut, Edit2, ChevronDown } from 'lucide-react';
 import { usePathname } from "next/navigation";
-const page = () => {
+const Page = () => {
   const pathname = usePathname();
   const [formData, setFormData] = useState({
     firstName: '',
@@ -451,4 +451,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

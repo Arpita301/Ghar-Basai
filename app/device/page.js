@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { User, Calendar, Laptop, LogOut, Edit2, ChevronDown, Smartphone, Monitor } from 'lucide-react';
 
-const page = () => {
+const Page = () => {
   const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -367,4 +367,4 @@ function DeviceCard({ image, title, location, time, current, delay = 0 }) {
   );
 }
 
-export default page;
+export default Page;

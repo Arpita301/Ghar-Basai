@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Hotel, Users, Coffee, Utensils } from 'lucide-react';
 import { Star, User, Calendar, Check, Send } from 'lucide-react';
 
-const page = () => {
+const Page = () => {
   const [activeTab, setActiveTab] = useState('select');
   const [rating, setRating] = useState(0);
   const [hoverRating, setHoverRating] = useState(0);
@@ -1065,4 +1065,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
