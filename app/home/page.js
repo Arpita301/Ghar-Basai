@@ -1011,12 +1011,12 @@ const MotionLink = motion.create(Link);
   </h4>
 
   <h2 className="text-3xl md:text-4xl font-bold text-indigo-600 mt-2">
-    Discover the World’s Favorite Getaways
+    Discover the World&apos;s Favorite Getaways
   </h2>
 
   <p className="mt-4 text-gray-500 max-w-2xl mx-auto">
-    From the beaches of Goa to the snow peaks of Shillong — explore India's
-    most loved travel destinations.
+   From the beaches of Goa to the snow peaks of Shillong — explore India&apos;s
+   most loved travel destinations
   </p>
 
   {/* ======================================================

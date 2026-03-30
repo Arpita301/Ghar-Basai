@@ -22,11 +22,14 @@ export default function ContactSection() {
     });
   };
 
-  const handleSubmit = () => {
-    console.log("Form submitted:", formData);
-    alert("Form submitted! Check console for data.");
-  };
-
+  // const handleSubmit = () => {
+  //   console.log("Form submitted:", formData);
+  //   alert("Form submitted! Check console for data.");
+  // };
+const handleSubmit = (e) => {
+  e.preventDefault();
+  console.log("Form submitted:", formData);
+};
 
   
 const testimonials = [
@@ -111,7 +114,7 @@ const testimonials = [
           </h4>
 
           <h2 className="text-3xl md:text-4xl font-bold text-[#4A4DD0] mt-2 leading-snug">
-            Let's Talk With Our Expert Travel<br />Guides
+            {"Let's Talk With Our Expert Travel"}<br />Guides
           </h2>
 
           <p className="text-gray-600 mt-4 max-w-lg">
@@ -242,7 +245,7 @@ const testimonials = [
             </div>
 
             {/* BUTTON */}
-            <motion.button
+            <motion.button type="submit"
               onClick={handleSubmit}
               className="w-full mt-6 py-3 rounded-full text-white font-semibold bg-gradient-to-r from-[#4A4DD0] to-[#C04CFD]"
               whileHover={{ scale: 1.05 }}
@@ -265,7 +268,7 @@ const testimonials = [
 >
   {/* Background Image + Overlay */}
   <div className="absolute inset-0">
-    <img
+    <Image
       src="/getappimg.png"
       alt="Background"
       className="w-full h-full object-cover opacity-40"
@@ -335,7 +338,7 @@ const testimonials = [
 
         {/* MOBILE IMAGE */}
         <div className="lg:hidden w-full max-w-[240px] mx-auto">
-          <img
+          <Image
             src="/phimg.png"
             alt="App Preview"
             className="w-full h-auto drop-shadow-xl"
@@ -345,7 +348,7 @@ const testimonials = [
         {/* DESKTOP IMAGE */}
         <div className="hidden lg:block absolute bottom-0 right-0 translate-y-1/2 max-w-md">
           <div className="absolute inset-0 bg-purple-600/30 rounded-full blur-3xl" />
-          <img
+          <Image
             src="/phimg.png"
             alt="App Preview"
             className="relative z-10 rotate-6 drop-shadow-[0_35px_60px_rgba(139,92,246,0.4)]"
