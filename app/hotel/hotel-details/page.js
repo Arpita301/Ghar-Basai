@@ -448,7 +448,7 @@ const Page = () => {
             <h3 className="font-semibold text-gray-900 text-sm">Room Options</h3>
           </div>
           <div className="col-span-5 px-4 py-3 border-l-2 border-[#7E7E7E]">
-            <h3 className="font-semibold text-gray-900 text-sm">Today's Price</h3>
+            <h3 className="font-semibold text-gray-900 text-sm">Today&apos;s Pricegit add .</h3>
           </div>
         </div>
 
