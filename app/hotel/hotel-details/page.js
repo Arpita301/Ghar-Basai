@@ -958,13 +958,10 @@ const Page = () => {
   <div className={`absolute right-[100px] sm:right-[140px] md:right-[180px] lg:right-0 top-[60%] sm:top-[65%] md:top-[70%] lg:top-auto translate-y-0 lg:translate-y-1/2 w-full max-w-[220px] sm:max-w-[260px] md:max-w-xs lg:max-w-md`}>
 
     {/* Glow Effect */}
-    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
-                    w-56 h-56 sm:w-64 sm:h-64 lg:w-80 lg:h-80 
-                    bg-purple-600/30 rounded-full blur-3xl animate-pulse" />
+    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-56 h-56 sm:w-64 sm:h-64 lg:w-80 lg:h-80 bg-purple-600/30 rounded-full blur-3xl animate-pulse" />
 
     {/* Phone Image */}
-    <div className="relative z-20 transform rotate-3 sm:rotate-4 md:rotate-5 lg:rotate-6 
-                    transition-transform duration-500 hover:rotate-2 lg:hover:rotate-3">
+    <div className="relative z-20 transform rotate-3 sm:rotate-4 md:rotate-5 lg:rotate-6 transition-transform duration-500 hover:rotate-2 lg:hover:rotate-3">
       <img
         src="/phimg.png"
         alt="Mobile App Preview"
