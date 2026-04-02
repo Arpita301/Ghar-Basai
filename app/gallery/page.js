@@ -84,7 +84,7 @@ const Page = () => {
         >
           {/* LEFT COLUMN */}
           <div className="md:col-span-4 flex flex-col gap-4">
-            {["imageA.png", "imageB.png"].map((img, i) => (
+            {["/imageA.png", "/imageB.png"].map((img, i) => (
               <motion.img
                 key={i}
                 src={img}
@@ -106,7 +106,7 @@ const Page = () => {
             transition={{ duration: 0.6 }}
           >
             <motion.img
-              src="imageC.png"
+              src="/imageC.png"
               alt="River resort"
               className="rounded-2xl object-cover w-full h-[500px]"
               whileHover={{ scale: 1.02 }}
