@@ -407,10 +407,7 @@ useEffect(() => {
 
           {/* Right Content - Phone Mockup (Half Bottom Inside/Half Bottom Outside) */}
 <div className="relative flex justify-center lg:justify-end h-full">
-  <div className="absolute right-[100px] sm:right-[140px] md:right-[180px] lg:right-0 
-                  top-[60%] sm:top-[65%] md:top-[70%] lg:top-auto 
-                  translate-y-0 lg:translate-y-1/2 
-                  w-full max-w-[220px] sm:max-w-[260px] md:max-w-xs lg:max-w-md">
+  <div className={`absolute right-[100px] sm:right-[140px] md:right-[180px] lg:right-0 top-[60%] sm:top-[65%] md:top-[70%] lg:top-auto translate-y-0 lg:translate-y-1/2 w-full max-w-[220px] sm:max-w-[260px] md:max-w-xs lg:max-w-md`}>
 
     {/* Glow Effect */}
     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 

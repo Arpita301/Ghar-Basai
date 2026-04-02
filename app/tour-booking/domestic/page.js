@@ -763,11 +763,7 @@ const cardVariant = {
             </div>
           </div> */}
           <div className="relative flex justify-center lg:justify-end h-full">
-  <div className="absolute right-[100px] sm:right-[140px] md:right-[180px] lg:right-0 
-                  top-[60%] sm:top-[65%] md:top-[70%] lg:top-auto 
-                  translate-y-0 lg:translate-y-1/2 
-                  w-full max-w-[220px] sm:max-w-[260px] md:max-w-xs lg:max-w-md">
-
+   <div className={`absolute right-[100px] sm:right-[140px] md:right-[180px] lg:right-0 top-[60%] sm:top-[65%] md:top-[70%] lg:top-auto translate-y-0 lg:translate-y-1/2 w-full max-w-[220px] sm:max-w-[260px] md:max-w-xs lg:max-w-md`}>
     {/* Glow Effect */}
     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
                     w-56 h-56 sm:w-64 sm:h-64 lg:w-80 lg:h-80 
